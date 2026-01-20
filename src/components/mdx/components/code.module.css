@@ -1,0 +1,51 @@
+.pre {
+  --color-code-highlight-bg: theme(colors.base.text-strong / 0.08);
+  --color-code-highlight-border: theme(colors.base.text-strong);
+
+  @apply mt-[1.65em] max-h-[40rem] overflow-auto rounded-lg border border-base-border py-4;
+}
+
+.pre[data-theme='light'] {
+  --color-code-highlight-bg: theme(colors.base.text-strong / 0.05);
+
+  display: none;
+}
+
+:global(.light) .pre[data-theme='dark'] {
+  display: none;
+}
+
+:global(.light) .pre[data-theme='light'] {
+  display: block;
+}
+
+.pre > code {
+  counter-reset: line;
+}
+
+.pre [data-line] {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.pre [data-highlighted-line] {
+  background-color: var(--color-code-highlight-bg);
+  border-left: 1px solid var(--color-code-highlight-border);
+}
+
+.pre [data-highlighted-chars] {
+  border-radius: 0.25rem;
+  background-color: var(--color-code-highlight-bg);
+  box-shadow: 0 0 0 4px var(--color-code-highlight-bg);
+}
+
+.pre [data-line]::before {
+  counter-increment: line;
+  content: counter(line);
+
+  display: inline-block;
+  width: 2ch;
+  margin-right: 1.5rem;
+  text-align: right;
+  color: #768390;
+}
