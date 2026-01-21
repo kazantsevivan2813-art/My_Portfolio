@@ -3,13 +3,14 @@ import dayjs from 'dayjs';
 import agrexLogo from '~/public/images/agrex.png';
 import datarocketsLogo from '~/public/images/datarockets-logo.jpg';
 import scutiLogo from '~/public/images/scuti.png';
+import instinctoolsLogo from '~/public/images/Instinctools-logo.jpg';
 
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
-export const FULL_NAME = 'Akira Yoshiro';
+export const FULL_NAME = 'Ivan Kazantsev';
 
-export const EMAIL = 'tzztson@gmail.com';
+export const EMAIL = 'kazantsev.ivan2813@gmail.com';
 
 export const RESUME = `${SITE_URL}/resume.pdf`;
 
@@ -22,8 +23,8 @@ export const EXPERIENCE_YEARS = Math.round(
 export const WORK_EXPERIENCE = [
   {
     position: 'Senior AI / Full-Stack Engineer (Remote)',
-    company: 'Berlin-based AI Solutions Company, Germany',
-    image: null,
+    company: 'Instinctools',
+    image: instinctoolsLogo,
     startDate: '2024-01-01T00:00',
     endDate: '2025-12-31T00:00',
     description:
@@ -60,10 +61,10 @@ export const WORK_EXPERIENCE = [
 
 export const DESCRIPTION = `Software engineer mainly focused on frontend with about ${EXPERIENCE_YEARS} years of experience who always pays attention to details and thinks about the end users of a product.`;
 
-export const GITHUB_USERNAME = 'gungho0619';
+export const GITHUB_USERNAME = 'jagelous';
 export const GITHUB_URL = `https://github.com/${GITHUB_USERNAME}`;
 
-export const TELEGRAM_USERNAME = 'gungho0619';
+export const TELEGRAM_USERNAME = 'jagelous2813';
 export const TELEGRAM_URL = `https://t.me/${TELEGRAM_USERNAME}`;
 
 export const STACK = [
