@@ -3,7 +3,7 @@ import { tclsx } from '../../utils/tailwind';
 import { tv } from 'tailwind-variants';
 import { Box } from '../box';
 import Image from 'next/image';
-import Flamingo from '~/public/images/flamingo.png';
+import Flamingo from '~/public/images/cloud-drawer.jpg';
 
 /*-- Styles --*/
 

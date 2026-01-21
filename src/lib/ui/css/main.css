@@ -13,7 +13,8 @@
     --color-white: 255 255 255;
 
     /* Base */
-    --color-base-bg: var(--color-black);
+    /* Slightly lifted from pure black so the page doesn't feel "flat" */
+    --color-base-bg: 10 10 10;
     --color-base-text-strong: var(--color-white);
     --color-base-text-light: 229 229 229;
     --color-base-text-weak: 212 212 212;
@@ -36,7 +37,8 @@
     color-scheme: light;
 
     /* Base */
-    --color-base-bg: var(--color-white);
+    /* Slightly softened from pure white */
+    --color-base-bg: 250 250 250;
     --color-base-text-strong: var(--color-black);
     --color-base-text-light: 38 38 38;
     --color-base-text-weak: 64 64 64;
@@ -54,7 +56,23 @@
   }
 
   body {
+    /*
+     Subtle gradient adds depth so the full-page background doesn't feel harsh.
+     Uses semantic tokens so it automatically adapts to light/dark theme.
+    */
     background-color: theme('colors.base.bg');
+    background-image:
+      radial-gradient(
+        1000px circle at 10% -10%,
+        rgb(var(--color-base-surface) / 0.55),
+        transparent 55%
+      ),
+      radial-gradient(
+        900px circle at 90% 0%,
+        rgb(var(--color-base-border) / 0.25),
+        transparent 55%
+      );
+    background-attachment: fixed;
     color: theme('colors.base.text-strong');
   }
 }

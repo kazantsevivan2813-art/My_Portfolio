@@ -73,11 +73,7 @@ export default function AboutMe() {
         </div>
         <div>
           {' '}
-          <p className="text-base-text-weak">
-            <Link href={`${RESUME}`} target="_blank" variant="underline">
-              Download Resume
-            </Link>
-          </p>
+
         </div>
       </Section>
 

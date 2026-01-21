@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { FlipTilt } from 'react-flip-tilt';
 
 import profilePortrait from '~/public/images/profile-portrait.png';
-import Flamingo from '~/public/images/flamingo.png';
+import Flamingo from '~/public/images/cloud-drawer.jpg';
 
 import { tclsx } from '@/lib/ui';
 import css from '../page.module.css';
