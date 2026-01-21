@@ -21,6 +21,15 @@ export const EXPERIENCE_YEARS = Math.round(
 
 export const WORK_EXPERIENCE = [
   {
+    position: 'Senior AI / Full-Stack Engineer (Remote)',
+    company: 'Berlin-based AI Solutions Company, Germany',
+    image: null,
+    startDate: '2024-01-01T00:00',
+    endDate: '2025-12-31T00:00',
+    description:
+      'Designed and implemented LLM-powered applications including AI content generators, document analysis systems, and conversational assistants. Built RAG (Retrieval-Augmented Generation) pipelines combining vector databases with GPT-4 to deliver accurate, context-aware responses. Developed AI-powered PDF/book generation systems with automated layout, image generation, and multilingual support. Integrated OpenAI, Together AI, and Hugging Face APIs with cost-optimized token usage. Implemented machine learning models for natural language processing, text classification, and predictive analytics. Developed ML pipelines for data preprocessing, feature engineering, model training, and deployment. Utilized TensorFlow, PyTorch, and scikit-learn for building and training ML models. Implemented secure authentication, role-based access control, and API key management for AI platforms. Deployed scalable AI services on AWS using Docker and serverless architectures.',
+  },
+  {
     position: 'Full Stack Engineer',
     company: 'LOLICO',
     image: datarocketsLogo,
@@ -77,6 +86,19 @@ export const STACK = [
   'Git/Github',
   'Python',
   'Playwright',
+  'AI/ML',
+  'LLM',
+  'GPT-4',
+  'OpenAI',
+  'Together AI',
+  'Hugging Face',
+  'RAG',
+  'Vector Databases',
+  'TensorFlow',
+  'PyTorch',
+  'scikit-learn',
+  'Machine Learning',
+  'NLP',
 ];
 
 export const INTERESTS = ['Chess', 'Guitar', 'Pets', 'Dancing', 'Traveling'];

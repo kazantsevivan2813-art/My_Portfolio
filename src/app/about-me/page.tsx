@@ -1,12 +1,4 @@
-'use client';
-
-import Image from 'next/image';
 import NextLink from 'next/link';
-
-import { FlipTilt } from 'react-flip-tilt';
-
-import profilePortrait from '~/public/images/profile-portrait.png';
-import Flamingo from '~/public/images/flamingo.png';
 
 import {
   PageHeading,
@@ -34,17 +26,18 @@ import {
   WORK_EXPERIENCE,
 } from '@/config';
 import { getPinnedProjects } from '@/content';
+import { getMetadata } from '@/metadata';
 import { Button, Chip, ChipGroup, ChipLabel, Link, tclsx } from '@/lib/ui';
 import { to } from '@/routing';
-import { DetailsGroup, DetailsGroupTitle } from './_components';
+import { DetailsGroup, DetailsGroupTitle, FlipTiltImage } from './_components';
 import css from './page.module.css';
 
 const PROJECTS_PREVIEWS_COUNT = 2;
 
-// export const metadata = getMetadata({
-//   title: 'About',
-//   description: DESCRIPTION,
-// });
+export const metadata = getMetadata({
+  title: 'About',
+  description: DESCRIPTION,
+});
 
 export default function AboutMe() {
   const projects = getPinnedProjects({ limit: PROJECTS_PREVIEWS_COUNT });
@@ -60,46 +53,7 @@ export default function AboutMe() {
           <div className={tclsx(css.profileGridTitle, 'text-3xl lg:text-4xl')}>
             I ❤️ to build things
           </div>
-          <div
-            className={tclsx(
-              css.profileGridImage,
-              'mx-auto aspect-square w-64 lg:w-72',
-            )}
-          >
-            {/* <Image
-              className="rounded-xl"
-              src={profilePortrait}
-              alt="Profile portrait"
-              width={350}
-              height={350}
-              quality={90}
-              placeholder="blur"
-            /> */}
-            <FlipTilt
-              front={
-                <Image
-                  className="rounded-xl"
-                  src={profilePortrait}
-                  alt="Profile portrait"
-                  width={350}
-                  height={350}
-                  quality={90}
-                  placeholder="blur"
-                />
-              }
-              back={
-                <Image
-                  className="rounded-xl"
-                  src={Flamingo}
-                  alt="Profile portrait"
-                  width={350}
-                  height={350}
-                  quality={90}
-                  placeholder="blur"
-                />
-              }
-            />
-          </div>
+          <FlipTiltImage />
 
           <p
             className={tclsx(
