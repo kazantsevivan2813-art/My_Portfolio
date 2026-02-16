@@ -108,11 +108,11 @@ export default function Home() {
             {EMAIL}
           </Link>
         </p>
-        <p className="text-base-text-weak">
+        {/* <p className="text-base-text-weak">
           <Link href={`${RESUME}`} target="_blank" variant="underline">
             Download Resume
           </Link>
-        </p>
+        </p> */}
       </Section>
     </>
   );

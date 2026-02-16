@@ -64,7 +64,7 @@ export const DESCRIPTION = `Software engineer mainly focused on frontend with ab
 export const GITHUB_USERNAME = 'jagelous';
 export const GITHUB_URL = `https://github.com/${GITHUB_USERNAME}`;
 
-export const TELEGRAM_USERNAME = 'jagelous2813';
+export const TELEGRAM_USERNAME = 'jagelous11115';
 export const TELEGRAM_URL = `https://t.me/${TELEGRAM_USERNAME}`;
 
 export const STACK = [
@@ -104,7 +104,7 @@ export const STACK = [
 
 export const INTERESTS = ['Chess', 'Guitar', 'Pets', 'Dancing', 'Traveling'];
 
-export const TIME_ZONE = 'EST (UTC-5)';
+export const TIME_ZONE = 'EET (GMT+2)';
 
 export const THEME = {
   light: 'light',
