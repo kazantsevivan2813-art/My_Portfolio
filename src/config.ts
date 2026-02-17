@@ -61,10 +61,10 @@ export const WORK_EXPERIENCE = [
 
 export const DESCRIPTION = `Software engineer mainly focused on frontend with about ${EXPERIENCE_YEARS} years of experience who always pays attention to details and thinks about the end users of a product.`;
 
-export const GITHUB_USERNAME = 'jagelous';
+export const GITHUB_USERNAME = 'longngo0924';
 export const GITHUB_URL = `https://github.com/${GITHUB_USERNAME}`;
 
-export const TELEGRAM_USERNAME = 'jagelous11115';
+export const TELEGRAM_USERNAME = 'longngo09241';
 export const TELEGRAM_URL = `https://t.me/${TELEGRAM_USERNAME}`;
 
 export const STACK = [
@@ -104,7 +104,7 @@ export const STACK = [
 
 export const INTERESTS = ['Chess', 'Guitar', 'Pets', 'Dancing', 'Traveling'];
 
-export const TIME_ZONE = 'EET (GMT+2)';
+export const TIME_ZONE = 'UTC/GMT + 7';
 
 export const THEME = {
   light: 'light',
