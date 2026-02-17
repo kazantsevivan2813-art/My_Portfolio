@@ -8,9 +8,9 @@ import instinctoolsLogo from '~/public/images/Instinctools-logo.jpg';
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
-export const FULL_NAME = 'Ivan Kazantsev';
+export const FULL_NAME = 'Long Ngo';
 
-export const EMAIL = 'kazantsev.ivan2813@gmail.com';
+export const EMAIL = 'ollydev245@gmail.com';
 
 export const RESUME = `${SITE_URL}/resume.pdf`;
 

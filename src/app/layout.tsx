@@ -46,7 +46,7 @@ export default function RootLayout({
           property="og:image"
           content="https://gungho0619.app/meta/og-image.png"
         /> */}
-        <meta property="og:url" content="https://gungho0619.vercel.app/" />
+        <meta property="og:url" content="https://long.ngo0924.vercel.app/" />
       </head>
       <body className={`${inter.className}`}>
         <ThemeProvider>
