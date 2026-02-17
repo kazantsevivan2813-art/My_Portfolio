@@ -64,7 +64,7 @@ export const DESCRIPTION = `Software engineer mainly focused on frontend with ab
 export const GITHUB_USERNAME = 'longngo0924';
 export const GITHUB_URL = `https://github.com/${GITHUB_USERNAME}`;
 
-export const TELEGRAM_USERNAME = 'longngo09241';
+export const TELEGRAM_USERNAME = 'longngo09242';
 export const TELEGRAM_URL = `https://t.me/${TELEGRAM_USERNAME}`;
 
 export const STACK = [
