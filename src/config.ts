@@ -66,6 +66,8 @@ export const GITHUB_URL = `https://github.com/${GITHUB_USERNAME}`;
 
 export const TELEGRAM_USERNAME = 'longngo09242';
 export const TELEGRAM_URL = `https://t.me/${TELEGRAM_USERNAME}`;
+export const DISCORD_USERNAME = "longngo09242";
+export const DISCORD_URL = `https://discord.com/users/1425863578128482386`;
 
 export const STACK = [
   'TypeScript',
