@@ -20,8 +20,6 @@ import {
   INTERESTS,
   RESUME,
   STACK,
-  DISCORD_URL,
-  DISCORD_USERNAME,
   TELEGRAM_URL,
   TELEGRAM_USERNAME,
   TIME_ZONE,
@@ -127,18 +125,6 @@ export default function AboutMe() {
                   variant="underline"
                 >
                   {TELEGRAM_USERNAME}
-                </PropertyValue>
-              </Property>
-
-              <Property>
-                <PropertyLabel>Discord</PropertyLabel>
-                <PropertyValue
-                  as={Link}
-                  href={DISCORD_URL}
-                  target="_blank"
-                  variant="underline"
-                >
-                  {DISCORD_USERNAME}
                 </PropertyValue>
               </Property>
             </div>
