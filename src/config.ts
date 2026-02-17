@@ -8,9 +8,9 @@ import instinctoolsLogo from '~/public/images/Instinctools-logo.jpg';
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
-export const FULL_NAME = 'Long Ngo';
+export const FULL_NAME = 'Ivan Kazantsev';
 
-export const EMAIL = 'ollydev245@gmail.com';
+export const EMAIL = 'kazantsev.ivan2813@gmail.com';
 
 export const RESUME = `${SITE_URL}/resume.pdf`;
 
@@ -26,7 +26,7 @@ export const WORK_EXPERIENCE = [
     company: 'Instinctools',
     image: instinctoolsLogo,
     startDate: '2024-01-01T00:00',
-    endDate: '2025-02-31T00:00',
+    endDate: '2025-12-31T00:00',
     description:
       'Designed and implemented LLM-powered applications including AI content generators, document analysis systems, and conversational assistants. Built RAG (Retrieval-Augmented Generation) pipelines combining vector databases with GPT-4 to deliver accurate, context-aware responses. Developed AI-powered PDF/book generation systems with automated layout, image generation, and multilingual support. Integrated OpenAI, Together AI, and Hugging Face APIs with cost-optimized token usage. Implemented machine learning models for natural language processing, text classification, and predictive analytics. Developed ML pipelines for data preprocessing, feature engineering, model training, and deployment. Utilized TensorFlow, PyTorch, and scikit-learn for building and training ML models. Implemented secure authentication, role-based access control, and API key management for AI platforms. Deployed scalable AI services on AWS using Docker and serverless architectures.',
   },
@@ -61,13 +61,11 @@ export const WORK_EXPERIENCE = [
 
 export const DESCRIPTION = `Software engineer mainly focused on frontend with about ${EXPERIENCE_YEARS} years of experience who always pays attention to details and thinks about the end users of a product.`;
 
-export const GITHUB_USERNAME = 'longngo0924';
+export const GITHUB_USERNAME = 'jagelous';
 export const GITHUB_URL = `https://github.com/${GITHUB_USERNAME}`;
 
-export const TELEGRAM_USERNAME = 'longngo09242';
+export const TELEGRAM_USERNAME = 'jagelous11115';
 export const TELEGRAM_URL = `https://t.me/${TELEGRAM_USERNAME}`;
-export const DISCORD_USERNAME = "longngo09242";
-export const DISCORD_URL = `https://discord.com/users/1425863578128482386`;
 
 export const STACK = [
   'TypeScript',
@@ -106,7 +104,7 @@ export const STACK = [
 
 export const INTERESTS = ['Chess', 'Guitar', 'Pets', 'Dancing', 'Traveling'];
 
-export const TIME_ZONE = 'UTC/GMT + 7';
+export const TIME_ZONE = 'EET (GMT+2)';
 
 export const THEME = {
   light: 'light',
